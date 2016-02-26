@@ -8,6 +8,8 @@ ENV MAVEN_LABEL apache-maven-$MAVEN_VERSION
 
 WORKDIR /root
 
+ADD ./Dockerfile /root
+
 RUN echo "fetching $MAVEN_LABEL"
 
 RUN curl -O http://a.mbbsindia.com/maven/maven-3/$MAVEN_VERSION/binaries/$MAVEN_LABEL-bin.tar.gz
