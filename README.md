@@ -1,5 +1,7 @@
-Dockerfile Repository to build a docker image for Maven with Oracle Java
+Maven Dockerfile
 ====
+
+Dockerfile Repository to build a docker image for Maven with Oracle Java
 
 ## Clone the Repository
 
